@@ -38,14 +38,8 @@ class Solution:
             #return type: boolean
             
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
-            x = 0
-            o =0
-            for i in string:
-                if i == 'X':
-                    x+=1
-                elif i == 'O':
-                    o+=1
-            return x == o 
+
+            return string.count('X') == string.count('O')
                 
 def main():
     input1=input()
