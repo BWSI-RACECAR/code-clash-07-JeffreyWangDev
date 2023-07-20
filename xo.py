@@ -41,9 +41,9 @@ class Solution:
             x = 0
             o =0
             for i in string:
-                if i.lower() == 'x':
+                if i == 'X':
                     x+=1
-                elif i.lower() == 'o':
+                elif i == 'O':
                     o+=1
             return x == o 
                 
